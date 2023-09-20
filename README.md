@@ -9,7 +9,7 @@
  - docker pull <SOME IMAGE FROM DOCKER HUB> - downloads an image
  - docker images - listing the images already downloaded 
  - docker image rm <image ID> - get into an image
- - docker run -it <image name> - this runs the image in interactive terminal mode
+ - docker run -it \<image name> - this runs the image in interactive terminal mode
  - docker stats - shows you live running containers and associated info
  - docker run options:
    - --name <some name for container>
