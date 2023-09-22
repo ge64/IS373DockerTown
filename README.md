@@ -21,3 +21,8 @@
  - docker run --name apache -dp 8080:80 httpd
  - docker rm \<containerName> - removes old containers with a name
  - docker exec -it \<containerID or name> bash - log into a running container
+
+Command Reference - No Particular Order
+
+docker build -t kaw393939/python312 . <- builds image called "kaw393939/python312"
+docker run -e QR_CODE_DEFAULT_URL=www.yahoo.com -e QR_CODE_IMAGE_DIRECTORY=images -v $(pwd):/home/ qrcode
