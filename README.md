@@ -24,5 +24,5 @@
 
 Command Reference - No Particular Order
 
-docker build -t kaw393939/python312 . <- builds image called "kaw393939/python312"
-docker run -e QR_CODE_DEFAULT_URL=www.yahoo.com -e QR_CODE_IMAGE_DIRECTORY=images -v $(pwd):/home/ qrcode
+docker build -t ge64/python312 .
+docker run -e QR_CODE_DEFAULT_URL=www.google.com -e QR_CODE_IMAGE_DIRECTORY=images -v ${pwd}:/home/myuser qrcode
