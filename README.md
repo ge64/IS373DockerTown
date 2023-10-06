@@ -1,7 +1,7 @@
 # IS373DockerTown
 ## Docker Links
 
-![alt text](http://images/myRepo.png)
+![myRepoQRCode](/images/myRepo.png)
 
  - https://docs.docker.com/get-started/
 
